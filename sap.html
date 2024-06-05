@@ -28,8 +28,10 @@
 </nav>
 <main class="max-w-7xl  mx-auto  p-6">
 
+    
 
-    <section id="skills" class="mt-16 text-xl max-w-4xl">
+
+    <!-- <section id="skills" class="mt-16 text-xl max-w-4xl">
         <h2 class="text-center font-extrabold">Skills</h2>
         <ul>
             <li><strong>Programming Languages:</strong> JavaScript, ABAP, Rust, Python</li>
@@ -39,16 +41,16 @@
         </ul>
     </section>
 
-    <h1 class="text-3xl mb-5">UI5</h1>
+    <h1 class="text-3xl mb-5">UI5</h1> -->
 
     <h1 class="text-3xl mb-5">Quick Abap Demos</h1>
+    <h1 class="text-xl mb-5">The following demos are simple examples of some ABAP programs that I've written while learning ABAP. More of a proof of concept than actual professional work.</h1>
 
 
 
-
-    <div class="h-96 bg-gray-200 flex mb-4 rounded-lg shadow-md">
-        <div class="basis-1/2 p-3 font-body">
-            <h1 class="text-2xl font-semibold">ALV Demo</h1>
+    <div class=" bg-gray-200 flex mb-4 rounded-lg shadow-md">
+        <div class="basis-1/2 p-3 font-body ">
+            <h1 class="text-2xl font-semibold">ALV & SmartForms demo</h1>
             <ul class="pb-10 list-disc p-6 text-lg">
                 <!-- <li class="list-none font-semibold">Features</li> -->
                 <li>ABAP List Viewer Reports</li>
@@ -56,7 +58,33 @@
                 <li>SmartForms</li>
             </ul>
             <p class="pl-3 text-lg w-11/12">After feeling comfortable with classical reports, i wanted to move on to
-                ALV. Features 3 database tables, FOOD, DESTINATION, REPORT. Calculates total.</p>
+                ALV. Features 4 transparent tables. Total and price calculations happen at runtime.</p>
+            <p class="pl-3 pt-2 text-lg w-11/12 underline decoration-dashed"><a href="erd.png" target="_blank">Entity-Relationship Diagram </a></p>
+
+
+        </div>
+        <video controls class="p-3 h-96">
+            <source src="./alv.mp4" type="video/mp4">
+
+        </video>
+
+
+
+    </div>
+    <div class="h-96 bg-gray-200 flex mb-4 rounded-lg shadow-md">
+        <div class="basis-1/2 p-3 font-body">
+            <h1 class="text-2xl font-semibold">Screen Painter / Module Pool demo</h1>
+            <ul class="pb-10 list-disc p-6 text-lg">
+                <!-- <li class="list-none font-semibold">Features</li> -->
+                <li>Screen painter</li>
+                <li>Form validation</li>
+                <li>Lock objects</li>
+                <li>Drop-down completion</li>
+                <li>Buttons, PBO, PAI, etc (screen flow logic)</li>
+
+
+            </ul>
+            <p class="pl-3 text-lg w-11/12">A form for data entry in SAPGUI. TODO: More features like tables, buttons, exceptions.</p>
 
 
         </div>
@@ -66,28 +94,27 @@
         </video>
 
     </div>
+
+
     <div class="h-96 bg-gray-200 flex mb-4 rounded-lg shadow-md">
         <div class="basis-1/2 p-3 font-body">
-            <h1 class="text-2xl font-semibold">ALV Demo</h1>
+            <h1 class="text-2xl font-semibold">Table Maintainance & Transactions</h1>
             <ul class="pb-10 list-disc p-6 text-lg">
                 <!-- <li class="list-none font-semibold">Features</li> -->
-                <li>ABAP List Viewer Reports</li>
-                <li>OpenSQL Queries, DDIC structures</li>
-                <li>SmartForms</li>
+                <li>Usage the Table Maintainance Generator</li>
+                <li>Maintain Transaction</li>
+
             </ul>
-            <p class="pl-3 text-lg w-11/12">After feeling comfortable with classical reports, i wanted to move on to
-                ALV. Features 3 database tables, FOOD, DESTINATION, REPORT. Calculates total.</p>
+            <p class="pl-3 text-lg w-11/12"></p>
 
 
         </div>
         <video controls class="p-3 ">
-            <source src="../media/module.mp4" type="video/mp4">
+            <source src="./TableMaint.mp4" type="video/mp4">
 
         </video>
 
     </div>
-
-
 </main>
 
 
